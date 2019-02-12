@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:menu xmlns:m="http://www.w3.org/menu"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.w3.org/menu menu.xsd">
+    <m:cold_snack>
+        <m:food m:id="1">
+            <m:img>1.jpg</m:img>
+            <m:title>Ассорти рыбное</m:title>
+            <m:complexDescriptionContainer  m:description="Cлаболососевая форель, семга">
+                <m:innerDescription m:descript="" m:number="1" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>100/20/15</m:portion>
+        </m:food>
+        
+         <m:food m:id="2">
+            <m:img>2.jpg</m:img>
+            <m:title>Тарталетка с красной икрой</m:title>
+            <m:complexDescriptionContainer  m:description="Тарталетка с красной икрой">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>60/50</m:portion>
+        </m:food>
+        
+         <m:food m:id="3">
+            <m:img>3.jpg</m:img>
+            <m:title>Закуска по-русски</m:title>
+            <m:complexDescriptionContainer  m:description="Кусочки атлантической сельди с отвраным картофелем, луком, лимоном и зеленью">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>70/50/2/10</m:portion>
+        </m:food>
+        
+        
+        <m:food m:id="4">
+            <m:img>4.jpg</m:img>
+            <m:title>Куриный рулет</m:title>
+            <m:complexDescriptionContainer m:description="Куриный рулеи собственного производства">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>100/5</m:portion>
+        </m:food>
+        
+        
+        <m:food m:id="5">
+            <m:img>5.jpg</m:img>
+            <m:title>Бастурма</m:title>
+            <m:complexDescriptionContainer  m:description="Вяленая вырезка из говяжьего мяса">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>50/5</m:portion>
+        </m:food>
+        
+        
+        
+        <m:food m:id="6">
+            <m:img>6.jpg</m:img>
+            <m:title>Ассорти мясное</m:title>
+            <m:complexDescriptionContainer  m:description="Нарезка из буженины, бастурмы, куриного рулета собственного производства и колбасы">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>100/30</m:portion>
+        </m:food>
+        
+        
+        
+        <m:food m:id="7">
+            <m:img>7.jpg</m:img>
+            <m:title>Язык отварной</m:title>
+            <m:complexDescriptionContainer  m:description="Нарезка нежного говяжьего мяса, подаётся с хреном">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>80/20/1</m:portion>
+        </m:food>
+        
+        
+        <m:food m:id="8">
+            <m:img>8.jpg</m:img>
+            <m:title>Ассорти баклажаны</m:title>
+            <m:complexDescriptionContainer  m:description="Жареные баклажаны с помидорами">
+                <m:innerDescription m:descript="1.с помидорами" m:number="1" m:price="100"/>
+                 <m:innerDescription m:descript="2.с чесноком" m:number="2" m:price="100"/>
+                  <m:innerDescription m:descript="1.с орехами" m:number="3" m:price="100"/>
+            </m:complexDescriptionContainer>
+            <m:portion>100/5</m:portion>
+        </m:food>
+        
+        
+         <m:food m:id="9">
+            <m:img>9.jpg</m:img>
+            <m:title>Соленья по-домашнему</m:title>
+            <m:complexDescriptionContainer  m:description="Маринованнные овощи">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>150/10</m:portion>
+        </m:food>
+        
+        
+          <m:food m:id="10">
+            <m:img>10.jpg</m:img>
+            <m:title>Бабушкины угощенья</m:title>
+            <m:complexDescriptionContainer  m:description="Ассорти из маринованных грибов">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>120/20/10</m:portion>
+        </m:food>
+        
+        
+        
+         <m:food m:id="11">
+            <m:img>11.jpg</m:img>
+            <m:title>Сырная тарелка</m:title>
+            <m:complexDescriptionContainer  m:description="Сыры чечел, дор блю, российский, мраморный">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>100/5</m:portion>
+        </m:food>
+
+
+
+        <m:food m:id="12">
+            <m:img>12.jpg</m:img>
+            <m:title>Брынза</m:title>
+            <m:complexDescriptionContainer  m:description="Рассольны сыр, изготавливаемый из овечьего молока">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>75/5</m:portion>
+        </m:food>
+        
+        
+        
+         <m:food m:id="13">
+            <m:img>13.jpg</m:img>
+            <m:title>Зелень</m:title>
+            <m:complexDescriptionContainer  m:description="Кинза, лук, петрушка, укроп, базилик">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>30</m:portion>
+        </m:food>
+        
+        
+        <m:food m:id="14">
+            <m:img>14.jpg</m:img>
+            <m:title>Ассорти овощное</m:title>
+            <m:complexDescriptionContainer  m:description="Свежие помидоры, болгарский перец, огурцы, редис и зелень">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>30</m:portion>
+        </m:food>
+        
+        
+        <m:food m:id="15">
+            <m:img>15.jpg</m:img>
+            <m:title>Ассорти овощное</m:title>
+            <m:complexDescriptionContainer  m:description="Свежие помидоры, болгарский перец, укроп, базилик, кинза, лист салата, зелень">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>150/40</m:portion>
+        </m:food>
+        
+        
+        <m:food m:id="16">
+            <m:img>16.jpg</m:img>
+            <m:title>Сеньор помидор</m:title>
+            <m:complexDescriptionContainer  m:description="Помидор, фаршированный сырным мусом">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>150/1</m:portion>
+        </m:food>
+        
+        
+        <m:food m:id="17">
+            <m:img>17.jpg</m:img>
+            <m:title>Фестиваль салатов</m:title>
+            <m:complexDescriptionContainer  m:description="">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>400/10</m:portion>
+        </m:food>
+        
+        
+        <m:food m:id="18">
+            <m:img>18.jpg</m:img>
+            <m:title>Оливки,маслины</m:title>
+            <m:complexDescriptionContainer  m:description="">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>50</m:portion>
+        </m:food>
+        
+        
+         <m:food m:id="19">
+            <m:img>19.jpg</m:img>
+            <m:title>Лимон</m:title>
+            <m:complexDescriptionContainer  m:description="">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>60</m:portion>
+        </m:food>
+        
+        
+          <m:food m:id="20">
+            <m:img>20.jpg</m:img>
+            <m:title>Мацони</m:title>
+            <m:complexDescriptionContainer  m:description="">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>300</m:portion>
+        </m:food>    
+        
+    </m:cold_snack>
+    <m:hot_snack>
+        
+        
+        <m:food m:id="1">
+            <m:img>1.jpg</m:img>
+            <m:title>Лобио с шампионами</m:title>
+            <m:complexDescriptionContainer  m:description="Фасоль с шампионами и грецким орехами">
+                <m:innerDescription m:descript="" m:number="" m:price="105"/>
+            </m:complexDescriptionContainer>
+            <m:portion>150/5</m:portion>
+        </m:food>
+        
+        
+        <m:food m:id="2">
+            <m:img>2.jpg</m:img>
+            <m:title>Жульен</m:title>
+            <m:complexDescriptionContainer  m:description="">
+                <m:innerDescription m:descript="1. с курицей" m:number="1" m:price="145"/>
+                <m:innerDescription m:descript="1. с грибами" m:number="2" m:price="155"/>
+            </m:complexDescriptionContainer>
+            <m:portion>120/1</m:portion>
+        </m:food>
+        
+        
+        
+         <m:food m:id="3">
+            <m:img>3.jpg</m:img>
+            <m:title>Ахтамар мясной</m:title>
+            <m:complexDescriptionContainer  m:description="Колбаса,ветчина, буженина, сыр, запеченые на мангале в лаваше">
+                <m:innerDescription m:descript="" m:number="" m:price="105"/>
+            </m:complexDescriptionContainer>
+            <m:portion>150/5</m:portion>
+        </m:food>
+        
+        
+        
+        
+           <m:food m:id="4">
+            <m:img>4.jpg</m:img>
+            <m:title>Ахтамар с овощами</m:title>
+            <m:complexDescriptionContainer  m:description="Сыр, помидоры, зелень, запеченые на мангале в лаваше">
+                <m:innerDescription m:descript="" m:number="" m:price="150"/>
+            </m:complexDescriptionContainer>
+            <m:portion>1шт</m:portion>
+        </m:food>
+        
+        
+        
+         <m:food m:id="5">
+            <m:img>5.jpg</m:img>
+            <m:title>Сюрприз</m:title>
+            <m:complexDescriptionContainer  m:description="Сыр, помидоры, зелень, запеченые на мангале в лаваше">
+                <m:innerDescription m:descript="" m:number="" m:price="260"/>
+            </m:complexDescriptionContainer>
+            <m:portion>1шт</m:portion>
+        </m:food>
+        
+        
+         <m:food m:id="6">
+            <m:img>6.jpg</m:img>
+            <m:title>Креветки</m:title>
+            <m:complexDescriptionContainer  m:description="">
+                <m:innerDescription m:descript="с отварные" m:number="1" m:price="135"/>
+                <m:innerDescription m:descript="с жареные " m:number="2" m:price="155"/>
+            </m:complexDescriptionContainer>
+            <m:portion>1шт</m:portion>
+        </m:food>
+        
+        
+        
+          <m:food m:id="7">
+            <m:img>7.jpg</m:img>
+            <m:title>Мидии по турецки</m:title>
+            <m:complexDescriptionContainer  m:description="Мидии, фаршированные сырром и грецким орехом">
+                <m:innerDescription m:descript="" m:number="" m:price="190"/>
+            </m:complexDescriptionContainer>
+            <m:portion>150/30</m:portion>
+        </m:food>
+        
+        
+        
+         <m:food m:id="8">
+            <m:img>8.jpg</m:img>
+            <m:title>Эскарго</m:title>
+            <m:complexDescriptionContainer  m:description="Виноградные улитки, фаршированные по бургундски">
+                <m:innerDescription m:descript="" m:number="" m:price="230"/>
+            </m:complexDescriptionContainer>
+            <m:portion>12 шт</m:portion>
+        </m:food>
+        
+        
+        
+        
+    </m:hot_snack>
+    
+    
+    <m:breakfasts>
+        <m:food m:id="1">
+            <m:img>1.jpg</m:img>
+            <m:title>Глазунья</m:title>
+            <m:complexDescriptionContainer  m:description=" 2 яйца на выбор: ветчина, сыр, помидоры">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>                
+            </m:complexDescriptionContainer>
+            <m:portion>120/1</m:portion>
+        </m:food>
+        
+        
+        
+         <m:food m:id="2">
+            <m:img>2.jpg</m:img>
+            <m:title>Омлет</m:title>
+            <m:complexDescriptionContainer  m:description="">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>100</m:portion>
+        </m:food>
+        
+        
+        <m:food m:id="3">
+            <m:img>3.jpg</m:img>
+            <m:title>Блинчики с мясом</m:title>
+            <m:complexDescriptionContainer  m:description="Жареные блинчики с мясом">
+                <m:innerDescription m:descript="" m:number="" m:price="0"/>
+            </m:complexDescriptionContainer>
+            <m:portion>150</m:portion>
+        </m:food>
+        
+        
+        
+        
+        
+    </m:breakfasts>
+</m:menu>
+

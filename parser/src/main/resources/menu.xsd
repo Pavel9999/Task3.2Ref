@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.w3.org/menu"
+        xmlns:m="http://www.w3.org/menu"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+    <element name="menu">
+        <complexType>
+            <sequence>
+                <element name="cold_snack">
+                    <complexType>
+                        <choice>
+                            <element name="food" type="m:Food" maxOccurs="unbounded"></element>
+                        </choice>
+                    </complexType>
+                </element>
+
+
+                <element name="hot_snack" >
+                    <complexType>
+                        <choice>
+                            <element name="food" type="m:Food" maxOccurs="unbounded"></element>
+                        </choice>
+                    </complexType>
+                </element>
+                <element name="breakfasts">
+                    <complexType>
+                        <choice>
+                            <element name="food" type="m:Food" maxOccurs="unbounded"></element>
+                        </choice>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="food" type="m:Food"/>
+
+    <complexType name="Food">
+        <sequence>
+            <element name="img"   type="string"/>
+
+            <element name="title" type="string"/>
+
+            <element name="complexDescriptionContainer">
+                <complexType>
+                    <choice maxOccurs="unbounded">
+                        <element name="innerDescription">
+                            <complexType>
+                                <attribute name="descript" type="string"/>
+                                <attribute name="number" type="integer"/>
+                                <attribute name="price" type="integer"/>
+                            </complexType>
+                        </element>
+                    </choice>
+                    <attribute name="description" type="string"/>
+                </complexType>
+
+            </element>
+            <element name="portion" type="string"/>
+        </sequence>
+        <attribute name="id" type="integer"/>
+    </complexType>
+</schema>

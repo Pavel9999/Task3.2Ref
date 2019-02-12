@@ -1,0 +1,158 @@
+/*Elements css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*Elements css reset over*/
+
+
+
+/*my code*/
+#main_view{
+
+}
+
+#main_view{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#main_view  >  li{
+    float: left;
+}
+
+#left_side {
+    background: brown; /* Цвет фона */
+    width: 20%; /* Ширина */
+}
+
+#left_side  >  ul {
+    margin-top: 50px;
+    list-style-type: none;
+    display:block;
+}
+
+#left_side  >  li{
+    float: none;
+}
+
+#left_side a{
+    display: flex;
+    color: goldenrod;
+    text-align: center;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+#buttons {
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+}
+
+#language_li{
+    margin-top: 300px;
+}
+
+
+
+#right_side{
+    width: 70%;
+}
+
+#right_side_ul{
+    list-style-type: none;
+    display:flex;
+}
+
+#header{
+    float: none;
+}
+
+#header {
+    background: #b7cba9; /* Цвет фона */
+    width: 70%; /* Ширина */
+}
+
+table{
+    table-layout: auto;
+}
+
+table, th, td {
+    border-bottom: 1px solid #311c1d;
+}
+
+td{
+    padding: 0px;
+}
+
+#products p{
+    margin: 5px;
+}
+
+#pages {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 50%;
+}
+
+#pages > li{
+    float: left;
+    display: inline-block;
+    padding: 15px;
+}
+
+.ul_row {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.ul_row  >  li{
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+
